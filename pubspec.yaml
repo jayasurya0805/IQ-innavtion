@@ -1,0 +1,61 @@
+name: qr_innovations
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  connectivity_plus:
+  google_fonts:
+  flutter_riverpod:
+  http:
+  shared_preferences:
+  intl:
+  skeletons:
+  firebase_core:
+  firebase_analytics:
+  firebase_messaging:
+  cached_network_image:
+  permission_handler:
+  url_launcher:
+  package_info_plus:
+  device_info_plus:
+  flutter_svg: ^2.0.9
+  image_picker: ^1.0.5
+  zego_uikit: ^2.15.1
+  zego_uikit_prebuilt_call: ^3.18.0
+  zego_uikit_signaling_plugin: ^2.7.2
+  faker: ^2.1.0
+  flutter_styled_toast: ^2.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis:
+  flutter_launcher_icons:
+  flutter_native_splash:
+  change_app_package_name:
+
+# flutter pub run flutter_launcher_icons
+flutter_icons:
+  image_path: "assets/images/app_icon.png"
+  android: "launcher_icon"
+  ios: true
+
+# flutter pub run flutter_native_splash:create
+flutter_native_splash:
+  background_image: "assets/images/splash_screen.png"
+  android: true
+  ios: true
+
+# flutter pub run change_app_package_name:main com.new.package.name
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
